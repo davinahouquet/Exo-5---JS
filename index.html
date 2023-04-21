@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,18 @@
     <link rel="stylesheet" href="./style.css">
     <title>Exercice 5 - JS</title>
 </head>
-<body>
-    <p class="consigne">La  conversion  (1  euro  =  6.55957  francs)  se  fait  en  temps  réel  (pas  de  bouton  de  soumission  du  formulaire). Le résultat en francs est arrondi à 2 décimales. En cas de saisie non numérique un message affiche qu'on doit absolument saisir une valeur numérique.  </p>
-    
-    <div class="container">
-        <h1>Valeur en euros</h1>
-        <input type="number" id="input" placeholder="Entrez la valeur en euros" onchange="calcDevise()"> €
-        <p id="resultat"></p>
-    </div>
 
+<body>
+    <div id="wrapper">
+
+            <div class="container">
+                <h1>Valeur en euros</h1>
+                <input type="number" id="input" placeholder="Entrez la valeur en euros €" onchange="calcDevise()">
+                <p id="resultat"></p>
+            </div>
+
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
